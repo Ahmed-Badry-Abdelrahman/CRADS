@@ -86,6 +86,14 @@ input {
     -ms-border-radius: var(--border-radius);
     -o-border-radius: var(--border-radius);
 }
+input:focus {
+    border: 1px solid #a8a8a8;
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
 input::placeholder {
     color: #a8a8a8;
     opacity: .7;

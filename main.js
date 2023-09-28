@@ -37,7 +37,7 @@ function getTotal() {
 
 // create product
 let dataProducts
-// check if localstorage have products if yas get this product and set it in dataProducts
+// check if local storage have products if yas get this product and set it in dataProducts
 if (localStorage.products != null) {
     dataProducts = JSON.parse(localStorage.products);
 } else {
